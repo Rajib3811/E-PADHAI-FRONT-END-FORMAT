@@ -4,10 +4,15 @@
 
 ### Prerequisites
 - Access to [Play with Docker](https://labs.play-with-docker.com/)
+- GitHub repository URL
 
 ### Deployment Steps
 
-1. **Clone or upload your project** to the Play with Docker instance
+1. **Clone the project from GitHub:**
+   ```bash
+   git clone https://github.com/Rajib3811/E-PADHAI-FRONT-END-FORMAT.git
+   cd E-PADHAI-FRONT-END-FORMAT
+   ```
 
 2. **Build and run with Docker Compose:**
    ```bash
@@ -23,6 +28,10 @@
 If you prefer using Docker directly:
 
 ```bash
+# Clone the repository first
+git clone https://github.com/Rajib3811/E-PADHAI-FRONT-END-FORMAT.git
+cd E-PADHAI-FRONT-END-FORMAT
+
 # Build the image
 docker build -t e-padhai-app .
 
