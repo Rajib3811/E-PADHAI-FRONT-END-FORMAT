@@ -17,6 +17,7 @@ import SignUp from './pages/SignUp';
 import './App.css';
 
 function App() {
+  // This is the main application component that sets up the routing and context providers.
   return (
     <AuthProvider>
       <Router>
